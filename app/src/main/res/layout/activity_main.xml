@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EditText"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_radioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RadioButton"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_ListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btn_progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ProgressBar"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btn_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spinner"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+</LinearLayout>

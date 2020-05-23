@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".TextViewActivity">
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaa"
+        android:gravity="center_horizontal"
+        android:paddingLeft="50px"
+        android:paddingTop="5px"
+        android:paddingRight="50px"
+        android:paddingBottom="5px"
+        android:text="@string/tv_test1"
+        android:textColor="#0000FF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:text="@string/tv_test1"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/tv_test1"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="" />
+
+</LinearLayout>
